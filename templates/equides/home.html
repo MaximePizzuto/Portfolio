@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block maintitle %}
+<link rel="stylesheet" href="{{ url_for('static', filename= 'css/styleAcc.css') }}">
+{{title}}
+{% endblock %}
+
+{% block name %}
+<body>
+                                                    <!--  HAUT DE PAGE -->
+
+
+
+                                                    <!--  CENTRE DE PAGE -->
+
+      <h1><center>  Bienvenu sur la page d'accueil </center></h1>
+      <br><br><br>
+
+                                                     <!--  page sur 3 colonnes-->
+
+<br><br><br><br><br><br><br><br><br><br>
+      
+      <div class="container text">
+
+        <h1 class="titre"><center>Bienvenu sur le site</center></h1>
+
+      </div>
+
+
+
+
+     <!--  PIED DE PAGE -->
+
+
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/Bootstrap.css') }}">
+</body>
+{% endblock %}
