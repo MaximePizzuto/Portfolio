@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio de présentation de différents tests que j'ai pus réaliser
+Portfolio de présentation de différents tests que j'ai pu réaliser
