@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>LocationReport</title>
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="headers.css" rel="stylesheet">
+  <!-- Script de google maps -->
+  <script src="https://maps.google.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2" type="text/javascript"></script>
+  <!-- Script de google maps -->
+  <script type="text/javascript" src= "./js/fonctions.js"> </script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <h2>Client</h2>
+      <p class="lead">Veuillez remplir les champs ci-dessous pour ajouter un client.</p>
+    </div>
+
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Adresse de facturation</h4>
+        <form class="needs-validation" name="new user" method="post" action="commande.php" novalidate>
+            <div class="row g-3">
+                <div class="col-sm-6">
+                    <label for="firstName" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" name="name" required>
+                    <div class="invalid-feedback">
+                        Un nom de famille est requis.
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Prenom</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" name="prenom" required>
+                    <div class="invalid-feedback">
+                        Un prenom est requis.
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label for="lastName" class="form-label">Telephone</label>
+                    <input class="form-control" id="telephone" name="telephone">
+                    <div class="invalid-feedback">
+                        Veuillez entrer un numéro de téléphone
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com" name="email">
+                    <div class="invalid-feedback">
+                        Veuillez entrer une adresse e-mail valide pour les mises à jour d'expédition.
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label for="address" class="form-label">Adresse</label>
+                    <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St" required>
+                    <div class="invalid-feedback">
+                        Veuillez indiquer une adresse
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <label for="zip" class="form-label">Ville</label>
+                    <input type="text" class="form-control" id="Ville" name="Ville" placeholder="" required>
+                    <div class="invalid-feedback">
+                        Veuillez entrer une ville
+                    </div>
+
+                </div>
+
+                    <div class="col-md-3">
+                        <label for="zip" class="form-label">Code postal</label>
+                        <input type="text" class="form-control" id="zip" name="zip" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Veuillez entrer un code postal
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="col-md-5">
+                    <label for="country" class="form-label">Particulier</label>
+                    <select class="form-select" id="particulier" name="particulier" required>
+                        <option value="">Choisir...</option>
+                        <option>Professionnel</option>
+                        <option>Client</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Veuillez sélectionner un pays valide.
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+
+
+
+                <button class="w-100 btn btn-primary btn-lg" type="submit">Valider</button>
+</form>
+      </div>
+    </div>
+    
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+
+  </footer>
+
+
+
+      <script src="form-validation.js"></script>
+  </body>
+</main>
+
+</html>

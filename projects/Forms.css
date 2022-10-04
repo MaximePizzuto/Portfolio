@@ -1,0 +1,35 @@
+.ajsupp {
+    display: flex;
+    
+    position: center;
+    flex-direction:column;
+}
+
+
+
+.b-example-divider {
+    border-style: solid;
+    position: relative;
+    width: 1920px;
+    height: 500px;
+}
+
+/*
+
+    .Ajouter {
+    
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 200px;
+}
+
+.supprimer {
+    
+    text-align: center;
+    position: absolute;
+    top: 97px;
+    left: 190px;
+}
+
+*/
