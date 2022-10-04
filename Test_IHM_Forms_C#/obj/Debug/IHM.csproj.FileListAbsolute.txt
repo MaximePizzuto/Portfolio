@@ -1,0 +1,21 @@
+D:\Projets\en C#\IHM\bin\Debug\IHM.exe.config
+D:\Projets\en C#\IHM\bin\Debug\IHM.exe
+D:\Projets\en C#\IHM\bin\Debug\IHM.pdb
+D:\Projets\en C#\IHM\obj\Debug\IHM.csproj.AssemblyReference.cache
+D:\Projets\en C#\IHM\obj\Debug\IHM.Form1.resources
+D:\Projets\en C#\IHM\obj\Debug\IHM.Properties.Resources.resources
+D:\Projets\en C#\IHM\obj\Debug\IHM.csproj.GenerateResource.cache
+D:\Projets\en C#\IHM\obj\Debug\IHM.csproj.CoreCompileInputs.cache
+D:\Projets\en C#\IHM\obj\Debug\IHM.exe
+D:\Projets\en C#\IHM\obj\Debug\IHM.pdb
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\bin\Debug\IHM.exe.config
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\bin\Debug\IHM.exe
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\bin\Debug\IHM.pdb
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\obj\Debug\IHM.csproj.AssemblyReference.cache
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\obj\Debug\IHM.csproj.SuggestedBindingRedirects.cache
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\obj\Debug\IHM.Form1.resources
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\obj\Debug\IHM.Properties.Resources.resources
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\obj\Debug\IHM.csproj.GenerateResource.cache
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\obj\Debug\IHM.csproj.CoreCompileInputs.cache
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\obj\Debug\IHM.exe
+E:\1. DOSSIERS ECOLES\2. Année BTS 2\1.informatique\Gestion de projet\DEV IHM\en C#\IHM\obj\Debug\IHM.pdb
